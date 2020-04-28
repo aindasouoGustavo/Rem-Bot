@@ -1,49 +1,39 @@
-<img align="right" width="200" height="200" src="avatar.jpg">
+# Discord Bot - Javascript
 
-# Rem Bot
-A template utility bot based on [Alastair](Make-Alastair-Great-Again) and [Pinkie Pie](https://pastebin.com/Tg1p5AnW).
+###### 📡 Simples bot para discord feito em `javascript` por @DMVMarcio na lib [discord.js](https://discord.js.org/#/docs).
 
-Currently supports [Pixelcanvas.io](https://pixelcanvas.io/), [Pixelzone.io](https://pixelzone.io/), and [Pxls.space](https://pxls.space/).
+# Como criar um bot?
 
-**Invite:** `https://discordapp.com/oauth2/authorize?&client_id=405480380930588682&scope=bot&permissions=109569`
+###### 🔨 Você deverá acessar o [discord develpers](https://discordapp.com/developers/applications/me), logar em sua conta e criar uma nova aplicação clicando em `Create an aplication` e em seguida colocar um nome e foto para seu bot. <h6> Após isso deverá ir na aba `bot` ao lado e clicar em `Add Bot`.
 
-#### Requires:
-- [Python](https://www.python.org/downloads/release/python-365/) v3.6
-- [Discord.py](https://github.com/Rapptz/discord.py/) v1.2.3
-- [Pillow](https://pillow.readthedocs.io/en/latest/installation.html) v5.1.0
-- [aiohttp](https://aiohttp.readthedocs.io/en/stable/) v3.2.0
-- [numpy](https://www.scipy.org/scipylib/download.html) v1.14.4
-- [websockets](https://pypi.org/project/websockets/) v4.0.1
+Você pode alterar as opções do bot acessando o arquivo: `config.json`
 
-#### Installation:
-1. Install Python 3.6
-2. Run `pip install -r requirements.txt` in the main directory
-3. Put your bot token and other config info in `config/config.json.example`
-3. Rename `config.json.example` to `config.json`
-4. Run `python glimmer.py`
+PARÂMETRO | RESULTADO
+------------ | -------------
+TOKEN | Token de seu bot
+PREFIX | Prefixo desejado para o bot
+DONO | Você colocará seu id
 
-#### Features:
-- Automatic live canvas preview
-- Automatic live template checking
-- Template storage for easy access to templates you care about most
-- Faction creation, to share your templates with other guilds
-- Color quantization of templates to canvas palette
-- Gridifyer to create gridded, human-readable templates
-- Dithering sample charts for assisting color selection when you are making a template
-- Configurable roles
-- [Animotes](https://github.com/ev1l0rd/animotes) support, just because
-- Full language localization
+# Como consigo o token do bot?
 
-For a more in-depth walkthrough of Glimmer's core functions, see [the wiki page](https://github.com/DiamondIceNS/StarlightGlimmer/wiki).
+Você deverá ir na aba **bot** ao lado e clicar em `Click to Reveal Token` ao lado da foto.<h6>⚠**AVISO:** Não divulgue seu **token** à nenhuma pessoa, ele é usado para o **login** na conta do bot, ou seja, poderão fazer **tudo** que quiserem no bot, caso isso ocorra você pode **trocar** o token clicando no botão `Regenerate` abaixo do token.
 
-#### Languages:
-- English (US)
-- Portuguese (BR) - Special thanks to Ataribr / ✠ /#6703
-- Turkish (TR) (partial) - Special thanks to furkan#3251
+# Como adquiro meu id?
 
-If you happen to know a language that is not listed and would be willing to translate, please translate the strings in `lang/en_US.py` and submit a pull request.
+Você deverá ir nas **configurações** de seu **discord**, depois acessar a aba **aparencia** e ativar o **Modo desenvolvedor**, após isso feche as configurações, **clique** com o botão **direito** do mouse em você na lista de **usuários** do servidor ou em algum **chat** e clique **Copiar ID**.
 
-#### Help:
-If you need assistance with the bot, have a problem, or would like to recommend a feature to me directly, you can contact me [on my support server](https://discord.gg/UtyJx2x). You can also DM me if you see me around -- I am `Fawfulcopter#3432` on Discord.
+# Como iniciar o bot?
 
-[avatar]: avatar.jpg
+Primeiramente, você precisará **baixar** o __[node.js](https://nodejs.org/)__ `versão recomendada`, após instalado, reinicie seu computador e depois execute o arquivo `continue.bat`, ele instalará todos os modulos precisos para seu bot poder ser ligado, após instalado, será criado um arquivo chamado `terminal.bat`, ele será utilizado para ligar seu bot, basta **abri-lo** e digitar o seguinte comando: `node .`, após isso poderá deletar o `continue.bat`.
+
+# Como adiciono meu bot ao servidor?
+
+💬 Você pode adquirir o convite acessando **[Discord Permissions Calculator](https://discordapi.com/permissions.html#2146958591)**, configure as permissões desejadas, coloque o `client id` de seu bot abaixo e acesse o link dado pelo site.
+
+# Como troco o jogando do bot?
+
+Acesse o arquivo `index.js` e procure por **var jogando = `${client.user.username} - ${client.guilds.size} servidores`**, basta alterar a mensagem escrita depois do `=`.
+
+# Como criar novos comandos?
+
+👾 Você apenas precisa criar um arquivo na pasta comandos: `NomeDoComando.js`, dentro deste arquivo você colocará o código do comando,  para editar o arquivo, recomendo usar [Visual Studio Code](https://code.visualstudio.com/), existem alguns comandos de **exemplo** na pasta. Se você tiver dúvidas poderá **consultar** algumas **comunidades** de programação no discord: **[LabNegro](https://discord.gg/XzHdjaD)** etc...
