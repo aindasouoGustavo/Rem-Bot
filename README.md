@@ -1,6 +1,6 @@
 <img align="right" width="200" height="200" src="avatar.jpg">
 
-# Starlight Glimmer
+# Rem Bot
 A template utility bot based on [Alastair](Make-Alastair-Great-Again) and [Pinkie Pie](https://pastebin.com/Tg1p5AnW).
 
 Currently supports [Pixelcanvas.io](https://pixelcanvas.io/), [Pixelzone.io](https://pixelzone.io/), and [Pxls.space](https://pxls.space/).
